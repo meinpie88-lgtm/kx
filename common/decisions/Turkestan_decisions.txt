@@ -437,6 +437,18 @@ TRK_unite_central_asia = {
 				add = 10
 				FROM = { tag = UZB }
 			}
+			modifier = {
+				factor = 0
+				589 = { is_owned_by_ROOT_or_ally = no }
+				FROM = { 
+					OR = {
+						tag = EST
+						tag = TAN
+						tag = SIK
+						tag = MON
+					}
+				}
+			}
 		}
 
 		cancel_effect = {
@@ -559,6 +571,18 @@ TRK_unite_central_asia = {
 			modifier = {
 				add = 100
 				date > 1938.1.1
+			}
+			modifier = {
+				factor = 0
+				589 = { is_owned_by_ROOT_or_ally = no }
+				FROM = { 
+					OR = {
+						tag = EST
+						tag = TAN
+						tag = SIK
+						tag = MON
+					}
+				}
 			}
 		}
 
@@ -2849,7 +2873,6 @@ TRK_foreign_policy = {
 
 		available = {
 			is_subject = no
-			NOT = { has_global_flag = GER_withdrew_from_caucasus }
 			OR = {
 				has_global_flag = CA_turkestan_victorious
 				NOT = { country_exists = RUS }
@@ -4832,7 +4855,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_infantry"
@@ -4916,7 +4938,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_support"
@@ -5001,7 +5022,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_artillery"
@@ -5081,7 +5101,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_at"
@@ -5158,7 +5177,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_aa"
@@ -5239,7 +5257,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_tank"
@@ -5338,7 +5355,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_motorized"
@@ -5415,7 +5431,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_armored_cars"
@@ -5494,7 +5509,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_fighters"
@@ -5573,7 +5587,6 @@ TRK_Equipment_decisions = {
 				ALO_increase_russian_dependence = yes
 			}
 			set_variable = { can_buy_equipment = 1 }
-			FROM = { give_market_access = ROOT }
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRK_buy_bombers"

@@ -235,6 +235,11 @@ spriteTypes = {
 		name = "GFX_trait_TRM_admiral_kolchak"
 		texturefile = "gfx/interface/traits/TRM_admiral_kolchak.png"
 	}
+	
+	spriteType = {
+		name = "GFX_trait_RUS_white_navy_admiral"
+		texturefile = "gfx/interface/traits/RUS_white_navy_admiral.png"
+	}
 
 	spriteType = {
 		name = "GFX_trait_SWE_royal_family"
@@ -264,6 +269,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trait_USA_admiral_nimitz"
 		texturefile = "gfx/interface/traits/USA_admiral_nimitz.png"
+	}
+
+	spriteType = {
+		name = "GFX_trait_USA_admiral_leahy_trait"
+		texturefile = "gfx/interface/traits/USA_admiral_leahy_trait.png"
 	}
 
 	spriteType = {

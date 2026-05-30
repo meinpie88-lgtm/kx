@@ -3572,6 +3572,16 @@ guiTypes = {
 			spriteType = "GFX_Portrait_SPR_Jose_Villaverde"
 		}
 		iconType = { #
+			name = "Sofia_Casanova"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_SPR_Sofia_Casanova"
+		}
+		iconType = { #
+			name = "Maria_Urraca_Pastor"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_SPR_Maria_Urraca_Pastor"
+		}
+		iconType = { #
 			name = "SPR_Vacant_Office"
 			position = { x = 8 y = 10 }
 			spriteType = "GFX_Portrait_SPR_Vacant_Office"
@@ -3673,6 +3683,11 @@ guiTypes = {
 		
 		### Russia ###
 		
+		iconType = { #
+			name = "Pitirim_Sorokin"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Pitirim_Sorokin_portrait"
+		}
 		iconType = { #
 			name = "Pavel_Milyukov"
 			position = { x = 8 y = 10 }
@@ -3784,14 +3799,34 @@ guiTypes = {
 			spriteType = "GFX_Viktor_Baydalakov_portrait"
 		}
 		iconType = { #
+			name = "Mikhail_Drozdovsky"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Mikhail_Drozdovsky_portrait"
+		}
+		iconType = { #
 			name = "Patriarch_Sergius"
 			position = { x = 8 y = 10 }
 			spriteType = "GFX_Sergius_portrait"
 		}
 		iconType = { #
-			name = "Vladimir_Purishkevich"
+			name = "Abram_Dragomirov"
 			position = { x = 8 y = 10 }
-			spriteType = "GFX_Purishkevich_portrait"
+			spriteType = "GFX_Dragomirov_portrait"
+		}
+		iconType = { #
+			name = "Aleksandr_Lukomskiy"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Lukomsky_portrait"
+		}
+		iconType = { #
+			name = "Anton_Turkul"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Turkul_portrait"
+		}
+		iconType = { #
+			name = "Pyotr_Wrangel"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Wrangel_portrait"
 		}
 		iconType = { #
 			name = "Lev_Kamenev"
@@ -5175,7 +5210,7 @@ guiTypes = {
 		}
 		
 		iconType = { #
-			name = "Pitirim_Sorokin"
+			name = "Pitrim_Sorokin"
 			position = { x = 8 y = 10 }
 			spriteType = "GFX_Portrait_RUS_Pitirim_Sorokin"
 		}
@@ -5995,6 +6030,59 @@ guiTypes = {
 			spriteType = "GFX_Portrait_HUN_Miklos_Kallay"
 		}
 		
+		### Bohemia ###
+		
+		iconType = { #
+			name = "Frantisek_Soukup"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Frantisek_Soukup"
+		}
+		iconType = { #
+			name = "Antonin_Hampl"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Antonin_Hampl"
+		}
+		iconType = { #
+			name = "TG_Masaryk"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_T_G_Masaryk"
+		}
+		iconType = { #
+			name = "Jan_Masaryk"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Jan_Masaryk"
+		}
+		iconType = { #
+			name = "Edvard_Benes"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Edvard_Benes"
+		}
+		iconType = { #
+			name = "Rudolf_Beran"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Rudolf_Beran"
+		}
+		iconType = { #
+			name = "Jan_Malypetr"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Jan_Malypetr"
+		}
+		iconType = { #
+			name = "Jan_Sramek"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Jan_Sramek"
+		}
+		iconType = { #
+			name = "Frantisek_Mares"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Frantisek_Mares"
+		}
+		iconType = { #
+			name = "Jiri_Stribrny"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_CZE_Jiri_Stribrny"
+		}
+		
 		### Others
 			
 		iconType = { #
@@ -6019,6 +6107,42 @@ guiTypes = {
 			name = "Vladimir_Gantimurov"
 			position = { x = 8 y = 10 }
 			spriteType = "GFX_Portrait_TRM_Vladimir_Gantimurov"
+		}
+		
+		iconType = { #
+			name = "Viktorin_Molchanov"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_TRM_Viktorin_Molchanov"
+		}
+		
+		iconType = { #
+			name = "Sergey_Sokolov"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_DKB_Sergey_Sokolov"
+		}
+		
+		iconType = { #
+			name = "Afrikan_Bogaevsky"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_DKB_Afrikan_Bogaevsky"
+		}
+		
+		iconType = { #
+			name = "Pyotr_Krasnov"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_DKB_Pyotr_Krasnov"
+		}
+		
+		iconType = { #
+			name = "Andrei_Shkuro"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_DKB_Andrei_Shkuro"
+		}
+		
+		iconType = { #
+			name = "Helmut_Pannwitz"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_DKB_Pannwitz"
 		}
 		
 		iconType = { #

@@ -874,7 +874,7 @@ CAL_self_regulation_desc:0 "New trade groups are seeking to court our favor by s
 CAL_stop_desecration:0 "Protect American Symbols"
 CAL_stop_desecration_desc:0 "The radicals would destroy every symbol of Americanism due to their maddening totality of belief in class conflict. Enough! The government shall promote the heavier use of patriotic symbols via contact with industrial trade groups, use more American symbols on government property and ban flag desecration under penalty of a small fine."
 CAL_welfare_reform:0 "Tighten Welfare Requirements"
-CAL_welfare_reform_desc:0 "Local and state welfare had been expanding since the late 20th century but their resources are famously short as of now. We should coordinate with local governments and businesses to make local forms of welfare such as food and cash relief more exclusive to widowed mothers and tighten local workers compensation to focus on the truly disabled."
+CAL_welfare_reform_desc:0 "Local and state welfare had been expanding since the late 19th century but their resources are famously short as of now. We should coordinate with local governments and businesses to make local forms of welfare such as food and cash relief more exclusive to widowed mothers and tighten local workers compensation to focus on the truly disabled."
 CAL_levering_act:0 "Levering Act"
 CAL_levering_act_desc:0 "California representative Harold K. Levering has, with assistance from representative Jack Tenney, written a new oath for all state employees (including teachers) to take in which they disavow radicalism, particularly syndicalism. Those who violate or refuse to take the oath can be removed from government positions where they may have caused considerable damage."
 CAL_increase_defense_spending:0 "Increase Defense Spending"
@@ -1653,7 +1653,7 @@ CAL_Retake_America_desc:0 "Norton claimed to be the Emperor of all of America, n
 ### Events ###
 pacificstates.1.t:0 "Commonwealth Nomination"
 pacificstates.1.d:0 "The Commonwealth Party, sometimes informally nicknamed the Left Democrats due to their activism on the left-labor wing of the Democratic Party, has convened today for its first nomination. Inspired by Sinclair's former EPIC (End Poverty in California) campaign, it is no wonder the radical activist is the leading candidate but has a surprisingly strong contender in California State Senator Culbert Olson. But which will win?"
-pacificstates.1.a:0 "Upton Sinclair has it"
+pacificstates.1.a:0 "Upton Sinclair has it!"
 pacificstates.1.b:0 "Culbert Olson!"
 pacificstates.1.e:0 "To prevent a disastrous war, Henry 'Hap' Arnold intervenes and declares Martial Law."
 

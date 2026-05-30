@@ -388,40 +388,13 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 	}
+	
   ################################################################################################################################################################################################
-  ### BRT
+  ### BRY
   ################################################################################################################################################################################################
 
 	head_of_government = { ### Head of Government ###
-		BRT_Yemelyan_M_Yaroslavsky_hog_tot = {
-			allowed = { OR = {
-				original_tag = TRB
-				original_tag = TRM
-				}
-			}
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			visible = {
-				OR = {
-					has_country_flag = TRM_cw_atheists_victory
-					tag = TRB
-				}
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Yemelyan_M_Yaroslavsky_hog_tot"
-			}
-			cancel_if_invalid = no
-			traits = {
-				head_of_government
-				totalist
-				hog_aggressive_modernizer
-			}
-		}
-		BRT_Bazar_Baradiyn_hog_rso = {
+		BRY_Bazar_Baradiyn_hog_rso = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -430,7 +403,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Bazar_Baradiyn_hog_rso"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Bazar_Baradiyn_hog_rso"
 			}
 			cancel_if_invalid = no
 			traits = {
@@ -439,7 +412,7 @@ ideas = {
 				hog_naive_optimist
 			}
 		}
-		BRT_Mikhail_Bogdanov_hog_sde = {
+		BRY_Mikhail_Bogdanov_hog_sde = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -448,7 +421,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Mikhail_Bogdanov_hog_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Mikhail_Bogdanov_hog_sde"
 			}
 			cancel_if_invalid = no
 			traits = {
@@ -458,7 +431,7 @@ ideas = {
 			}
 		}
 		
-		BRT_Tsogto_Badmazhapov_hog_sco = {
+		BRY_Tsogto_Badmazhapov_hog_sco = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -467,7 +440,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Tsogto_Badmazhapov_hog_sco"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Tsogto_Badmazhapov_hog_sco"
 			}
 			cancel_if_invalid = no
 			traits = {
@@ -477,7 +450,7 @@ ideas = {
 			}
 		}
 		
-		BRT_Bidia_D_Dandaron_hog_npo = {
+		BRY_Bidia_D_Dandaron_hog_npo = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -487,7 +460,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Bidia_D_Dandaron_hog_npo"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Bidia_D_Dandaron_hog_npo"
 			}
 			traits = {
 				head_of_government
@@ -497,54 +470,6 @@ ideas = {
 		}
 	}
 	person_of_influence = {
-		#BRT_Mikhey_N_Yerbanov_for_tot = {
-		#	allowed = { original_tag = BRY }
-		#	available = {
-		#		custom_trigger_tooltip = {
-		#			tooltip = minister_available
-		#			always = no
-		#		}
-		#	}
-		#	cancel_if_invalid = no
-		#	on_add = {
-		#		log = "[GetDateText]: [Root.GetName]: add idea BRT_Mikhey_N_Yerbanov_for_tot"
-		#	}
-		#	traits = {
-		#		foreign_minister
-		#		totalist
-		#		for_iron_fisted_brute 
-		#	}
-		#}
-		
-		BRT_Pyetr_A_Krasikov_for_tot = {
-			allowed = { OR = {
-				original_tag = TRB
-				original_tag = TRM
-				}
-			}
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			visible = {
-				OR = {
-					has_country_flag = TRM_cw_atheists_victory
-					tag = TRB
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Pyetr_A_Krasikov_for_tot"
-			}
-			traits = {
-				foreign_minister
-				totalist
-				for_iron_fisted_brute 
-			}
-		}
-		
 		MON_Rinchingiin_Elbegdorj_for_syn = {
 			allowed = { original_tag = BRY }
 			available = {
@@ -602,25 +527,7 @@ ideas = {
 			}
 		}
 
-		BRT_Ivan_P_Kalmykov_for_pau = {
-			allowed = { original_tag = TRB }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Ivan_P_Kalmykov_for_pau"
-			}
-			traits = {
-				foreign_minister
-				paternal_autocrat
-				for_general_staffer  
-			}
-		}
-		BRT_Don_Tsyden_for_npo = {
+		BRY_Don_Tsyden_for_npo = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -630,7 +537,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Don_Tsyden_for_npo"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Don_Tsyden_for_npo"
 			}
 			traits = {
 				foreign_minister
@@ -638,35 +545,7 @@ ideas = {
 				for_great_compromiser   
 			}
 		}
-		BRT_Semyon_D_Ignatiev_eco_tot = {
-			allowed = { OR = {
-				original_tag = TRB
-				original_tag = TRM
-				}
-			}
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			visible = {
-				OR = {
-					has_country_flag = TRM_cw_atheists_victory
-					tag = TRB
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Semyon_D_Ignatiev_eco_tot"
-			}
-			traits = {
-				economy_minister
-				totalist
-				eco_planned_economy_proponent 
-			}
-		}
-		BRT_Dashi_S_Sampilon_eco_rso = {
+		BRY_Dashi_S_Sampilon_eco_rso = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -675,7 +554,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Dashi_S_Sampilon_eco_rso"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Dashi_S_Sampilon_eco_rso"
 			}
 			cancel_if_invalid = no
 			traits = {
@@ -684,7 +563,7 @@ ideas = {
 				eco_mixed_economy
 			}
 		}
-		BRT_Pyetr_N_Dambinov_eco_sde = {
+		BRY_Pyetr_N_Dambinov_eco_sde = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -693,7 +572,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Pyetr_N_Dambinov_eco_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Pyetr_N_Dambinov_eco_sde"
 			}
 			cancel_if_invalid = no
 			traits = {
@@ -702,7 +581,7 @@ ideas = {
 				eco_resource_industrialist
 			}
 		}
-		BRT_Choyzil_Lhama_Bazaron_eco_sco = {
+		BRY_Choyzil_Lhama_Bazaron_eco_sco = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -711,7 +590,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Pyetr_N_Dambinov_eco_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Pyetr_N_Dambinov_eco_sde"
 			}
 			cancel_if_invalid = no
 			traits = {
@@ -720,25 +599,7 @@ ideas = {
 				eco_keynesian_economy
 			}
 		}
-		BRT_Leonid_V_Verigo_eco_pau = {
-			allowed = { original_tag = TRB }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Leonid_V_Verigo_eco_pau"
-			}
-			traits = {
-				economy_minister
-				paternal_autocrat
-				eco_military_entrepreneur 
-			}
-		}
-		BRT_Khotsa_Namsarayev_eco_npo = {
+		BRY_Khotsa_Namsarayev_eco_npo = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -748,7 +609,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Khotsa_Namsarayev_eco_npo"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Khotsa_Namsarayev_eco_npo"
 			}
 			traits = {
 				economy_minister
@@ -756,35 +617,7 @@ ideas = {
 				eco_efficient_director
 			}
 		}
-		BRT_Boris_P_Kandidov_sec_tot = {
-			allowed = { OR = {
-				original_tag = TRB
-				original_tag = TRM
-				}
-			}
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			visible = {
-				OR = {
-					has_country_flag = TRM_cw_atheists_victory
-					tag = TRB
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Boris_P_Kandidov_sec_tot"
-			}
-			traits = {
-				security_minister
-				totalist
-				sec_efficient_sociopath   
-			}
-		}
-		BRT_Irilto_D_Dampilon_sec_tot = {
+		BRY_Irilto_D_Dampilon_sec_tot = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -794,7 +627,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Irilto_D_Dampilon_sec_tot"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Irilto_D_Dampilon_sec_tot"
 			}
 			traits = {
 				security_minister
@@ -802,7 +635,7 @@ ideas = {
 				sec_man_of_the_people
 			}
 		}
-		BRT_Namsaray_Badmazhabe_sec_sde = {
+		BRY_Namsaray_Badmazhabe_sec_sde = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -812,7 +645,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Namsaray_Badmazhabe_sec_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Namsaray_Badmazhabe_sec_sde"
 			}
 			traits = {
 				security_minister
@@ -838,7 +671,7 @@ ideas = {
 				sec_health_and_safety
 			}
 		}
-		BRT_Bavasan_D_Abiduyev_sec_npo = {
+		BRY_Bavasan_D_Abiduyev_sec_npo = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -848,7 +681,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Bavasan_D_Abiduyev_sec_npo"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Bavasan_D_Abiduyev_sec_npo"
 			}
 			traits = {
 				security_minister
@@ -858,28 +691,7 @@ ideas = {
 		}
 	}
 	chief_of_staff = {
-		BRT_Ivan_P_Kalmykov_cos_pau = {
-			allowed = { original_tag = TRB }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = military_staff_available
-					NOT = { has_country_flag = Ivan_P_Kalmykov_dead }
-					has_unit_leader = 243910
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Ivan_P_Kalmykov_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Ivan_P_Kalmykov_cos_pau"
-			}
-			traits = {
-				chief_of_staff
-				RUS_cossack_ataman
-			}
-			cancel_if_invalid = yes
-		}
-		BRT_Tsogto_Badmazhapov_cos_sco = {
+		BRY_Tsogto_Badmazhapov_cos_sco = {
 			allowed = { original_tag = BRY }
 			available = {
 				custom_trigger_tooltip = {
@@ -893,37 +705,16 @@ ideas = {
 				NOT = { has_country_flag = Tsogto_Badmazhapov_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Tsogto_Badmazhapov_cos_sco"
+				log = "[GetDateText]: [Root.GetName]: add idea BRY_Tsogto_Badmazhapov_cos_sco"
 			}
 			traits = {
 				chief_of_staff
-				cos_school_of_mass_combat
+				RUS_corps_professionalism
 			}
 			cancel_if_invalid = yes
 		}
 	}
 	chief_of_army = {
-		BRT_Grigory_Semyonov_carm_pau = {
-			allowed = { original_tag = TRB }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = military_staff_available
-					NOT = { has_country_flag = Grigory_Semyonov_dead }
-					has_unit_leader = 243910
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Grigory_Semyonov_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Grigory_Semyonov_carm_pau"
-			}
-			traits = {
-				chief_of_army
-				carm_decisive_battle_doctrine
-			}
-			cancel_if_invalid = yes
-		}
 		BRY_DV_Buhogol_carm_sco = {
 			allowed = { original_tag = BRY }
 			available = {
@@ -942,31 +733,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_army
-				carm_decisive_battle_doctrine
-			}
-			cancel_if_invalid = yes
-		}
-	}
-	chief_of_air_force = {
-		BRT_Darma_Zhanayev_cair_sde = {
-		allowed = { original_tag = BRY }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = military_staff_available
-					NOT = {
-						has_government = totalist
-					}
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = DV_Buhogol_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea BRT_Darma_Zhanayev_cair_sde"
-			}
-			traits = {
-				chief_of_air_force
-				cair_air_superiority_doctrine
+				RUS_cavalry_expert
 			}
 			cancel_if_invalid = yes
 		}
@@ -9705,6 +9472,25 @@ ideas = {
 			}
 		}
 		
+		RUS_Grigoriy_Aleksinskiy_hog_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Grigoriy_Aleksinskiy_hog_sde"
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				RUS_national_revolutionary
+			}
+		}
+		
 		RUS_Vladimir_M_Zenzinov_hog_sde = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -9723,6 +9509,43 @@ ideas = {
 				hog_silent_workhorse
 			}
 		}
+		RUS_Mark_Vishnyak_hog_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mark_Vishnyak_hog_sde"
+			}
+			traits = {
+				head_of_government
+				democratic_socialist
+				hog_revelatory_speaker
+			}
+		}
+		RUS_Pitirim_A_Sorokin_hog_sli = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pitirim_A_Sorokin_hog_sli"
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_moderate_socialist
+			}
+		}
+		
 		RUS_Aleksand_F_Kerensky_hog_sli = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -9757,7 +9580,7 @@ ideas = {
 			traits = {
 				head_of_government
 				social_liberal
-				hog_anti_establishment_maverick
+				eco_administrative_genius
 			}
 		}
 
@@ -9940,6 +9763,24 @@ ideas = {
 			}
 		}
 		
+		RUS_Ivan_Solonevich_hog_ade = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_Solonevich_hog_ade"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				RUS_stabs_captain
+			}
+		}
 		RUS_Nikolay_S_Trubetskoy_hog_ade = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -10032,6 +9873,44 @@ ideas = {
 			}
 		}
 		
+		RUS_Vasily_Boldyrev_hog_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vasily_Boldyrev_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				RUS_general_february
+			}
+		}
+		
+		RUS_Aleksey_P_Arkhangelskiy_hog_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksey_P_Arkhangelskiy_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_old_general
+			}
+		}
+		
 		RUS_Pavel_Bermondt_Avalov_hog_pau = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -10066,7 +9945,7 @@ ideas = {
 			traits = {
 				head_of_government
 				paternal_autocrat
-				hog_the_black_baron
+				hog_respected_war_hero
 			}
 		}
 		
@@ -10089,6 +9968,44 @@ ideas = {
 			}
 		}
 		
+		RUS_Aleksandr_S_Lukomskiy_hog_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_S_Lukomskiy_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_monarchist_loyalist
+			}
+		}
+
+		RUS_Lavr_G_Kornilov_hog_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Lavr_G_Kornilov_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_old_general
+			}
+		}
+
 		RUS_Anton_I_Denikin_hog_pau = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -10108,7 +10025,7 @@ ideas = {
 			traits = {
 				head_of_government
 				paternal_autocrat
-				hog_the_peasant_marshal
+				hog_respected_war_hero
 			}
 		}
 		RUS_Patriarch_Kirill_hog_pau = {
@@ -10148,44 +10065,6 @@ ideas = {
 			}
 		}		
 		
-		RUS_Aleksandr_S_Lukomskiy_hog_pau = {
-			allowed = { original_tag = RUS }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = head_of_gov_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_S_Lukomskiy_hog_pau"
-			}
-			traits = {
-				head_of_government
-				paternal_autocrat
-				hog_old_general
-			}
-		}
-
-		RUS_Lavr_G_Kornilov_hog_pau = {
-			allowed = { original_tag = RUS }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = head_of_gov_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Lavr_G_Kornilov_hog_pau"
-			}
-			traits = {
-				head_of_government
-				paternal_autocrat
-				hog_old_general
-			}
-		}
-
 		RUS_Regency_Council_hog_pau = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -10201,7 +10080,7 @@ ideas = {
 			traits = {
 				head_of_government
 				paternal_autocrat
-				hog_silent_workhorse
+				hog_monarchist_loyalist
 			}
 		}
 		
@@ -10221,6 +10100,42 @@ ideas = {
 				head_of_government
 				paternal_autocrat
 				hog_political_protege
+			}
+		}
+		RUS_Anton_Turkul_hog_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Anton_Turkul_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_machiavellian_schemer
+			}
+		}
+		RUS_Mikhail_Drozdovsky_hog_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Drozdovsky_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_militant_reactionary
 			}
 		}
 		RUS_Yuri_Shirinsky_Shikhmatov_hog_npo = {
@@ -10244,25 +10159,6 @@ ideas = {
 				hog_flamboyant_tough_guy
 			}
 		}
-		RUS_Vladimir_M_Purishkevich_hog_npo = {
-			allowed = { original_tag = RUS }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = head_of_gov_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_M_Purishkevich_hog_npo"
-			}
-			traits = {
-				head_of_government
-				national_populist
-				hog_flamboyant_tough_guy
-			}
-		}
-		
 		RUS_Nikolay_E_Markov_hog_npo = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -10278,7 +10174,7 @@ ideas = {
 			traits = {
 				head_of_government
 				national_populist
-				hog_local_tyrant
+				RUS_kursk_zubr
 			}
 		}
 		
@@ -10301,6 +10197,24 @@ ideas = {
 				head_of_government
 				national_populist
 				hog_the_vozhd
+			}
+		}
+		RUS_Aleksandr_Dikgof_Derental_hog_npo = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_Dikgof_Derental_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				RUS_savinkovs_secretary
 			}
 		}
 		RUS_Pavel_T_Gorgulov_hog_npo = {
@@ -10929,6 +10843,44 @@ ideas = {
 			}
 		}
 
+		RUS_Abram_Gots_for_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Abram_Gots_for_sde"
+			}
+			traits = {
+				foreign_minister
+				democratic_socialist 
+				for_biased_intellectual
+			}
+		}
+
+		RUS_Prokopiy_Klimushkin_for_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Prokopiy_Klimushkin_for_sde"
+			}
+			traits = {
+				foreign_minister
+				democratic_socialist 
+				for_committed_democrat
+			}
+		}
+
 		RUS_Ilya_I_Fondaminskiy_for_sde = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -11201,6 +11153,25 @@ ideas = {
 				for_biased_intellectual
 			}
 		}		
+		RUS_Nikolay_Rybinsky_for_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_Rybinsky_for_pau"
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_ideological_crusader
+			}
+		}
+		
 		RUS_Aleksey_A_Ignatiev_for_pau = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -11217,6 +11188,44 @@ ideas = {
 				foreign_minister
 				paternal_autocrat
 				for_the_cloak_n_dagger_schemer
+			}
+		}
+		
+		RUS_Nikolay_Pyatnitsky_for_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_Pyatnitsky_for_pau"
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_general_staffer
+			}
+		}
+		
+		RUS_Aleksandr_Krupensky_for_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_Krupensky_for_pau"
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_biased_intellectual
 			}
 		}
 		
@@ -11254,7 +11263,7 @@ ideas = {
 			traits = {
 				foreign_minister
 				national_populist
-				for_biased_intellectual
+				RUS_savinkovs_secretary
 			}
 		}
 
@@ -11914,6 +11923,25 @@ ideas = {
 			}
 		}
 		
+		RUS_Semyon_Maslov_eco_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Semyon_Maslov_eco_sde"
+			}
+			traits = {
+				economy_minister
+				democratic_socialist 
+				eco_agricultural_economist
+			}
+		}
+		
 		RUS_Vadim_V_Rudnev_eco_sde = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -11929,8 +11957,28 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				social_democrat 
+				democratic_socialist 
 				eco_efficient_director
+			}
+		}
+		
+		RUS_Andrey_Argunov_eco_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = { NOT = { has_country_flag = RUS_Vadim_V_Rudnev_dead } }
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Andrey_Argunov_eco_sde"
+			}
+			traits = {
+				economy_minister
+				democratic_socialist 
+				eco_keynesian_economy
 			}
 		}
 		
@@ -11948,7 +11996,7 @@ ideas = {
 			}
 			traits = {
 				economy_minister
-				social_democrat 
+				democratic_socialist 
 				eco_theoretical_scientist
 			}
 		}
@@ -11987,7 +12035,7 @@ ideas = {
 			traits = {
 				economy_minister
 				social_liberal
-				eco_administrative_genius
+				eco_laissez_faire_capitalist
 			}
 		}
 
@@ -12064,25 +12112,6 @@ ideas = {
 				economy_minister
 				market_liberal
 				eco_laissez_faire_capitalist
-			}
-		}
-
-		RUS_Ivan_G_Erdeli_eco_sco = {
-			allowed = { original_tag = RUS }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_G_Erdeli_eco_sco"
-			}
-			traits = {
-				economy_minister
-				social_conservative
-				eco_infantry_proponent
 			}
 		}
 
@@ -12164,6 +12193,25 @@ ideas = {
 			}
 		}
 		
+		RUS_Ivan_G_Erdeli_eco_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_G_Erdeli_eco_pau"
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_infantry_proponent
+			}
+		}
+
 		RUS_Aleksey_P_Arkhangelskiy_eco_pau = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -12217,7 +12265,26 @@ ideas = {
 			traits = {
 				economy_minister
 				paternal_autocrat
-				eco_army_reform_committee
+				RUS_artillery_master
+			}
+		}
+
+		RUS_Ivan_Tkhorzhevsky_eco_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_Tkhorzhevsky_eco_pau"
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_bank_president
 			}
 		}
 
@@ -12236,11 +12303,11 @@ ideas = {
 			traits = {
 				economy_minister
 				paternal_autocrat
-				eco_industrialiser
+				eco_austere_finance_advocate
 			}
 		}
 
-		RUS_Nikolay_A_Maklakov_eco_pau = {
+		RUS_Vladimir_Vitkovsky_eco_pau = {
 			allowed = { original_tag = RUS }
 			available = {
 				custom_trigger_tooltip = {
@@ -12250,35 +12317,15 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_A_Maklakov_eco_pau"
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_Vitkovsky_eco_pau"
 			}
 			traits = {
 				economy_minister
 				paternal_autocrat
-				eco_military_entrepreneur
+				eco_armaments_organiser
 			}
 		}
 
-		RUS_Vladimir_N_Kokovtsov_eco_npo = {
-			allowed = { original_tag = RUS }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_N_Kokovtsov_eco_npo"
-			}
-			traits = {
-				economy_minister
-				national_populist
-				eco_bank_president
-			}
-		}
-
-		
 		RUS_Andrey_I_Zankevich_eco_npo = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -13085,8 +13132,46 @@ ideas = {
 			}
 			traits = {
 				security_minister
-				social_democrat
+				democratic_socialist
 				RUS_sherlock_holmes_of_russian_revolution
+			}
+		}
+
+		RUS_Mark_Slonim_sec_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mark_Slonim_sec_sde"
+			}
+			traits = {
+				security_minister
+				democratic_socialist
+				sec_education_reformer
+			}
+		}
+
+		RUS_Vladimir_Lebedev_sec_sde = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_Lebedev_sec_sde"
+			}
+			traits = {
+				security_minister
+				democratic_socialist
+				sec_health_and_safety
 			}
 		}
 
@@ -13127,7 +13212,6 @@ ideas = {
 				sec_compassionate_gentleman
 			}
 		}
-		
 		RUS_Mikhail_Kalugin_sec_mli = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -13296,25 +13380,6 @@ ideas = {
 			}
 		}
 
-		RUS_Vladimir_N_Kokovtsov_sec_pau = {
-			allowed = { original_tag = RUS }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_N_Kokovtsov_sec_pau"
-			}
-			traits = {
-				security_minister
-				paternal_autocrat
-				sec_elder_aristocrat
-			}
-		}
-
 		RUS_Aleksandr_P_Balk_sec_pau = {
 			allowed = { original_tag = RUS }
 			available = {
@@ -13334,7 +13399,7 @@ ideas = {
 			}
 		}
 
-		RUS_Nikolay_P_Vladimir_sec_pau = {
+		RUS_Yakov_Slaschyov_sec_pau = {
 			allowed = { original_tag = RUS }
 			available = {
 				custom_trigger_tooltip = {
@@ -13344,12 +13409,30 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_P_Vladimir_sec_pau"
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Yakov_Slaschyov_sec_pau"
 			}
 			traits = {
 				security_minister
 				paternal_autocrat
-				sec_crime_fighter
+				sec_man_of_the_people
+			}
+		}
+		RUS_Sergey_Ryasnyansky_sec_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Sergey_Ryasnyansky_sec_pau"
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_secret_police_chief
 			}
 		}
 		RUS_Pyetr_N_Vrangel_sec_pau = {
@@ -13367,7 +13450,43 @@ ideas = {
 			traits = {
 				security_minister
 				paternal_autocrat
-				sec_crime_fighter
+				sec_great_soul
+			}
+		}
+		RUS_Moris_Konradi_sec_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Moris_Konradi_sec_pau"
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_prince_of_terror
+			}
+		}
+		RUS_Pyotr_Apraksin_sec_pau = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pyotr_Apraksin_sec_pau"
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_pious_administrator
 			}
 		}
 		RUS_Vladimir_M_Purishkevich_sec_pau = {
@@ -13385,7 +13504,25 @@ ideas = {
 			traits = {
 				security_minister
 				national_populist
-				sec_crooked_kleptocrat
+				RUS_ultra_right_brawler
+			}
+		}
+		RUS_Mikhail_Govorukho_Otrok_sec_npo = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Govorukho_Otrok_sec_npo"
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_preserver_of_culture
 			}
 		}
 		
@@ -13671,7 +13808,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Aleksandr_I_Yegorov_dead }
-				}
+				}								
 			}
 			visible = {
 				NOT = { has_country_flag = Aleksandr_I_Yegorov_dead }
@@ -13693,7 +13830,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					has_unit_leader = 451
-				}
+				}			
 			}
 			visible = {
 				NOT = { has_country_flag = Boris_Shaposhnikov_dead }
@@ -13701,6 +13838,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Boris_Shaposhnikov_cos_rso"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_staff
@@ -13725,6 +13863,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_I_Verkhovskiy_cos_sde"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_staff
@@ -13733,25 +13872,135 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
+		RUS_Nikolay_Bredov_cos_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Nikolay_Bredov_dead }
+				}
+			}
+			visible = {
+				NOT = { 
+					has_country_flag = Nikolay_Bredov_dead
+					has_country_flag = soviet_russia_restored 
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_Bredov_cos_pau"
+				RUS_bop_increase_monarchists_small = yes
+			}
+			traits = {
+				chief_of_staff
+				RUS_military_theorist
+			}
+			cancel_if_invalid = yes
+		}
+		
+		RUS_Anatoliy_Pepelyaev_cos_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Anatoliy_Pepelyaev_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Anatoliy_Pepelyaev_dead }
+				has_unit_leader = 505060
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Anatoliy_Pepelyaev_cos_pau"
+				RUS_bop_increase_republicans_small = yes
+			}
+			traits = {
+				chief_of_staff
+				RUS_siberian_suvorov
+			}
+			cancel_if_invalid = yes
+		}
+		
+		RUS_Mikhail_Diterikhs_cos_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Mikhail_Diterikhs_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Mikhail_Diterikhs_dead }
+				has_unit_leader = 505058
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Diterikhs_cos_pau"
+				RUS_bop_increase_monarchists = yes
+			}
+			allowed_to_remove = {
+				if = {
+					limit = { TRM_do_rovs_in_power = yes }
+					OR = {
+						has_country_flag = Mikhail_Diterikhs_dead
+						NOT = { has_unit_leader = 505058 }
+					}
+				}
+			}
+			traits = {
+				chief_of_staff
+				RUS_siberian_volunteerism
+			}
+			cancel_if_invalid = yes
+		}
+		
+		RUS_Lavr_G_Kornilov_cos_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Lavr_G_Kornilov_dead }
+					NOT = { has_country_flag = Lavr_G_Kornilov_dead_forever }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Lavr_G_Kornilov_dead }
+				NOT = { has_country_flag = Lavr_G_Kornilov_dead_forever }
+				has_unit_leader = 402
+			}			
+			allowed_to_remove = {
+				always = no 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Lavr_G_Kornilov_cos_pau"
+			}
+			traits = {
+				chief_of_staff
+				RUS_strike_forces_expert
+			}
+			cancel_if_invalid = yes
+		}
+		
 		RUS_Anton_I_Denikin_cos_ade = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Anton_I_Denikin_dead }
 					NOT = { has_country_flag = Anton_I_Denikin_dead_forever }
 				}
-				NOT = { has_completed_focus = RUS_Spearhead_Doctrine }
-				NOT = { has_completed_focus = RUS_Overwhelming_Firepower }
-				NOT = { has_completed_focus = RUS_Extensive_Planning }
 			}
 			visible = {
 				NOT = { has_country_flag = Anton_I_Denikin_dead }
 				NOT = { has_country_flag = Anton_I_Denikin_dead_forever }
 				has_unit_leader = 401
+			}		
+			allowed_to_remove = {
+				RUS_denikin_in_power = no
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Anton_I_Denikin_cos_ade"
+				RUS_bop_increase_republicans_small = yes
+				set_temp_variable = { RUS_wrangel_change = -2 }
+				RUS_change_wrangels_ambitions = yes
 			}
 			traits = {
 				chief_of_staff
@@ -13760,22 +14009,22 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		RUS_Pyetr_N_Vrangel_cos_ade = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Pyetr_N_Vrangel_dead }
 				}
-				NOT = { has_completed_focus = RUS_Spearhead_Doctrine }
-				NOT = { has_completed_focus = RUS_Overwhelming_Firepower }
-				NOT = { has_completed_focus = RUS_War_Of_Numbers }
 			}
 			visible = {
 				NOT = { has_country_flag = Pyetr_N_Vrangel_dead }
 				has_unit_leader = 400
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pyetr_N_Vrangel_cos_ade"
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pyetr_N_Vrangel_cos_ade"				
+				RUS_bop_increase_monarchists_large = yes
+				set_temp_variable = { RUS_wrangel_change = 2 }
+				RUS_change_wrangels_ambitions = yes
 			}
 			traits = {
 				chief_of_staff
@@ -13784,7 +14033,7 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		RUS_Sergey_L_Markov_cos_ade = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
@@ -13797,22 +14046,22 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Sergey_L_Markov_cos_ade"
+				RUS_bop_increase_monarchists_small = yes
 			}
 			traits = {
 				chief_of_staff
-				RUS_implacable_warmonger
+				RUS_white_vityaz
 			}
 			cancel_if_invalid = yes
 		}
 		
 		RUS_Mikhail_Drozdovskiy_cos_pau = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Mikhail_Drozdovskiy_dead }
 				}
-				RUS_russian_monarch = yes
 			}
 			visible = {
 				NOT = { has_country_flag = Mikhail_Drozdovskiy_dead }
@@ -13820,6 +14069,15 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Drozdovskiy_cos_pau"
+				RUS_bop_increase_monarchists_large = yes
+				RUS_increase_monarchists_pop_large = yes
+				if = {
+					limit = { 
+						RUS_drozdovites_in_power = no
+						RUS_russian_monarch = no
+					}
+					add_stability = -0.05
+				}
 			}
 			traits = {
 				chief_of_staff
@@ -13828,15 +14086,12 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		RUS_Pavel_N_Shatilov_cos_npo = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Pavel_N_Shatilov_dead }
 				}
-				NOT = { has_completed_focus = RUS_Spearhead_Doctrine }
-				NOT = { has_completed_focus = RUS_Extensive_Planning }
-				NOT = { has_completed_focus = RUS_War_Of_Numbers }
 			}
 			visible = {
 				NOT = { has_country_flag = Pavel_N_Shatilov_dead }
@@ -13844,10 +14099,81 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pavel_N_Shatilov_cos_npo"
+				RUS_bop_increase_monarchists = yes
 			}
 			traits = {
 				chief_of_staff
 				RUS_intelligence_expert
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Vladimir_Manshteyn_cos_npo = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Vladimir_Manshteyn_dead }
+				}
+				has_completed_focus = RUS_Expand_The_Shock_Divisions
+			}
+			visible = {
+				NOT = { has_country_flag = Vladimir_Manshteyn_dead }
+				has_unit_leader = 413
+				has_country_flag = RUS_vladimir_manshteyn_available
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_Manshteyn_cos_npo"
+			}
+			traits = {
+				chief_of_staff
+				RUS_strike_forces_expert2
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Konstantin_Sakharov_cos_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = soviet_russia_restored }
+				}
+				has_completed_focus = RUS_Study_German_Method
+			}
+			visible = {
+				NOT = { 
+					has_country_flag = Konstantin_Sakharov_dead
+					has_country_flag = soviet_russia_restored 
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Konstantin_Sakharov_cos_pau"
+				RUS_bop_increase_monarchists_small = yes
+			}
+			traits = {
+				chief_of_staff
+				RUS_planning_expert
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Karl_Goppers_cos_npo = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Karl_Goppers_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Karl_Goppers_dead }
+				has_unit_leader = 15016
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Karl_Goppers_cos_npo"
+				RUS_bop_increase_republicans = yes
+			}
+			traits = {
+				chief_of_staff
+				army_chief_organizational_3
 			}
 			cancel_if_invalid = yes
 		}
@@ -13863,6 +14189,13 @@ ideas = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Rodion_Malinovskiy_dead }
 				}
+				if = {
+					limit = { has_country_flag = soviet_russia_restored }
+					has_completed_focus = SOV_Reorganise_Armament_Production
+				}
+				else = {
+					has_completed_focus = RUS_Reorganise_Armament_Production
+				}
 			}
 			visible = {
 				NOT = { has_country_flag = Rodion_Malinovskiy_dead }
@@ -13870,6 +14203,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Rodion_Malinovskiy_carm"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_army
@@ -13898,6 +14232,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Georgiy_K_Zhukov_carm_sde"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_army
@@ -13982,6 +14317,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_Vatutin_carm_tot"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_army
@@ -14011,19 +14347,11 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		RUS_Ivan_P_Romanovskiy_carm_sco = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Ivan_P_Romanovskiy_dead }
-				}
-				custom_trigger_tooltip = {
-					tooltip = RUS_Ivan_P_Romanovskiy_carm_sco_available
-					any_unit_leader = {
-						has_id = 456
-						skill > 3
-						average_stats > 3
-					}
 				}
 			}
 			visible = {
@@ -14032,6 +14360,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_P_Romanovskiy_carm_sco"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_army
@@ -14039,36 +14368,206 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-		RUS_Lavr_G_Kornilov_carm_pau = {
-			allowed = { 
-				OR = {
-					original_tag = RUS
-					original_tag = RVA
-				}
-			}
+		RUS_Aleksandr_Rodzyanko_carm_pau = {
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
-					NOT = { has_country_flag = Lavr_G_Kornilov_dead }
-					NOT = { has_country_flag = Lavr_G_Kornilov_dead_forever }
+					NOT = { has_country_flag = Aleksandr_Rodzyanko_dead } 
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = Lavr_G_Kornilov_dead }
-				NOT = { has_country_flag = Lavr_G_Kornilov_dead_forever }
-				has_unit_leader = 402
+				NOT = { 
+					has_country_flag = Aleksandr_Rodzyanko_dead
+					has_country_flag = soviet_russia_restored 
+				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Lavr_G_Kornilov_carm_pau"
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_Rodzyanko_carm_pau"
 			}
 			traits = {
 				chief_of_army
-				RUS_strike_forces_expert
+				RUS_horse_guardsman
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Vasily_Boldyrev_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Vasily_Boldyrev_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Vasily_Boldyrev_dead }
+				has_unit_leader = 456
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vasily_Boldyrev_carm_pau"
+				RUS_bop_increase_republicans = yes
+			}
+			traits = {
+				chief_of_army
+				RUS_trench_breakthrough
+			}
+			cancel_if_invalid = yes
+		}		
+		RUS_Ivan_Barbovich_carm_sco = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Ivan_Barbovich_dead } 
+				}
+				has_completed_focus = RUS_Revive_the_Cavalry_Corps
+			}
+			visible = {
+				NOT = { 
+					has_country_flag = Ivan_Barbovich_dead 
+					has_country_flag = soviet_russia_restored
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_Barbovich_carm_sco"
+			}
+			traits = {
+				chief_of_army
+				RUS_cavalry_expert
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Yevgeny_Miller_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Yevgeny_Miller_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Yevgeny_Miller_dead }
+				has_unit_leader = 399
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Yevgeny_Miller_carm_pau"
+				RUS_bop_increase_monarchists_small = yes
+			}
+			traits = {
+				chief_of_army
+				RUS_military_theorist
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Vladimir_Kappel_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Vladimir_Kappel_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Vladimir_Kappel_dead }
+				has_unit_leader = 404
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vladimir_Kappel_carm_pau"
+				RUS_bop_increase_monarchists = yes
+			}
+			traits = {
+				chief_of_army
+				RUS_wide_maneuver
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Sergey_Voytsekhovsky_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Sergey_Voytsekhovsky_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Sergey_Voytsekhovsky_dead }
+				has_unit_leader = 505059
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Sergey_Voytsekhovsky_carm_pau"
+			}
+			traits = {
+				chief_of_army
+				RUS_defense_forts
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Mikhail_Khanzhin_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Mikhail_Khanzhin_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Mikhail_Khanzhin_dead }
+				has_unit_leader = 50004
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Khanzhin_carm_pau"
+			}
+			traits = {
+				chief_of_army
+				RUS_lutsk_offensive
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Boris_Shteyfon_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Boris_Shteyfon_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Boris_Shteyfon_dead }
+				has_unit_leader = 42023
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Boris_Shteyfon_carm_pau"
+				RUS_bop_increase_monarchists = yes
+			}
+			traits = {
+				chief_of_army
+				RUS_coordination_tanks
+			}
+			cancel_if_invalid = yes
+		}
+		RUS_Aleksey_von_Lampe_carm_pau = {
+			allowed = { is_russian_tag = yes }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Aleksey_fon_Lampe_dead } 
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Aleksey_fon_Lampe_dead }
+				has_unit_leader = 612
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksey_von_Lampe_carm_pau"
+			}
+			traits = {
+				chief_of_army
+				RUS_corps_professionalism
 			}
 			cancel_if_invalid = yes
 		}
 		RUS_Aleksandr_S_Antonov_carm_npo = {
-			allowed = { original_tag = RUS }
+			allowed = { is_russian_tag = yes }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
@@ -14077,10 +14576,11 @@ ideas = {
 			}
 			visible = {
 				NOT = { has_country_flag = Aleksandr_S_Antonov_dead }
-				NOT = { has_country_flag = soviet_russia_restored }
+				has_unit_leader = 78819
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_S_Antonov_carm_npo"
+				RUS_bop_increase_republicans = yes
 			}
 			traits = {
 				chief_of_army
@@ -14088,6 +14588,8 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+			
+		
 	}
 
 	chief_of_navy = { ### Chief of Navy ###
@@ -14104,6 +14606,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolay_Kuznetsov_cnav_sde"
+				RUS_bop_increase_republicans_small = yes
 			}
 			traits = {
 				chief_of_navy
@@ -14124,6 +14627,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ivan_Isakov_cnav_sde"
+				RUS_bop_increase_republicans_small = yes
 			}
 			traits = {
 				chief_of_navy
@@ -14144,6 +14648,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Dmitri_N_Verderevsky_cnav_sde"
+				RUS_bop_increase_republicans_small = yes
 			}
 			traits = {
 				chief_of_navy
@@ -14164,6 +14669,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Arseny_Golovko_cnav_sde"
+				RUS_bop_increase_republicans_small = yes
 			}
 			traits = {
 				chief_of_navy
@@ -14204,6 +14710,9 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Aleksandr_Bubnov_cnav_pau"
+				RUS_bop_increase_monarchists_small = yes
+				set_temp_variable = { RUS_wrangel_change = 1 }
+				RUS_change_wrangels_ambitions = yes
 			}
 			traits = {
 				chief_of_navy
@@ -14224,6 +14733,7 @@ ideas = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Kedrov_cnav_pau"
+				RUS_bop_increase_monarchists_small = yes
 			}
 			traits = {
 				chief_of_navy
@@ -14353,13 +14863,12 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Mikhail_Shishmaryov_dead }
+					has_unit_leader = 78811
 				}
 			}
 			visible = {
-				NOT = { 
-					has_country_flag = Mikhail_Shishmaryov_dead 
-					has_country_flag = soviet_russia_restored
-				}
+				NOT = { has_country_flag = Mikhail_Shishmaryov_dead }
+				has_unit_leader = 78811
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Shishmaryov_cair_npo"
@@ -14376,13 +14885,12 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Vyacheslav_Tkachev_dead }
+					has_unit_leader = 423
 				}
 			}
 			visible = {
-				NOT = { 
-					has_country_flag = Vyacheslav_Tkachev_dead 
-					has_country_flag = soviet_russia_restored
-				}
+				NOT = { has_country_flag = Vyacheslav_Tkachev_dead }
+				has_unit_leader = 423
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Vyacheslav_Tkachev_cair_pau"
@@ -14415,6 +14923,29 @@ ideas = {
 				head_of_government
 				totalist
 				hog_totalist_chairman
+			}
+		}
+		TRM_Yemelyan_M_Yaroslavsky_hog_tot = {
+			allowed = { 
+				OR = {
+					original_tag = TRB
+					original_tag = TRM
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Yemelyan_M_Yaroslavsky_hog_tot"
+			}
+			cancel_if_invalid = no
+			traits = {
+				head_of_government
+				totalist
+				hog_aggressive_modernizer
 			}
 		}
 		TRM_Pyetr_Nikiforov_hog_tot = {
@@ -14564,7 +15095,7 @@ ideas = {
 			traits = {
 				head_of_government
 				social_liberal
-				hog_pragmatic_statesman
+				RUS_siberian_regionalist
 			}
 		}
 		TRM_Viktor_N_Pepelyayev_hog_mli = {
@@ -14593,7 +15124,7 @@ ideas = {
 				hog_loyal_kolchakite
 			}
 		}
-		TRM_Nikolay_Uhtomski_hog_mli = {
+		TRM_Nikolay_Ustryalov_hog_mli = {
 			allowed = { original_tag = TRM }
 			available = {
 				custom_trigger_tooltip = {
@@ -14603,12 +15134,31 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TRM_Nikolay_Uhtomski_hog_mli"
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Nikolay_Ustryalov_hog_mli"
 			}
 			traits = {
 				head_of_government
 				market_liberal
-				hog_silent_workhorse
+				hog_machiavellian_schemer
+			}
+		}
+
+		TRM_Sergey_Taskin_hog_mli = {
+			allowed = { original_tag = TRM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Sergey_Taskin_hog_mli"
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				eco_administrative_genius
 			}
 		}
 
@@ -14649,7 +15199,6 @@ ideas = {
 				hog_loyal_musketeer
 			}
 		}
-
 		TRM_Anatoliy_Pepelyaev_hog_pau = {
 			allowed = { original_tag = TRM }
 			available = {
@@ -14711,6 +15260,26 @@ ideas = {
 			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea TRM_Mikhail_K_Diterikhs_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_monarchist_loyalist
+			}
+		}
+		TRM_Viktorin_Molchanov_hog_pau = {
+			allowed = { 
+				original_tag = TRM
+			}	
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Viktorin_Molchanov_hog_pau"
 			}
 			traits = {
 				head_of_government
@@ -14842,6 +15411,29 @@ ideas = {
 				foreign_minister
 				totalist
 				for_leading_diplomat
+			}
+		}
+		TRM_Pyetr_A_Krasikov_for_tot = {
+			allowed = { 
+				OR = {
+					original_tag = TRB
+					original_tag = TRM
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Pyetr_A_Krasikov_for_tot"
+			}
+			traits = {
+				foreign_minister
+				totalist
+				for_iron_fisted_brute 
 			}
 		}
 		TRM_Genrich_Eiche_for_tot = {
@@ -14999,8 +15591,7 @@ ideas = {
 				for_ideological_crusader
 			}
 		}
-		
-		TRM_Aleksey_Sidorenko_for_mli = {
+		TRM_Nikolay_Uhtomsky_for_mli = {
 			allowed = { original_tag = TRM }
 			available = {
 				custom_trigger_tooltip = {
@@ -15010,15 +15601,15 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TRM_Aleksey_Sidorenko_for_mli"
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Nikolay_Uhtomsky_for_mli"
 			}
 			traits = {
 				foreign_minister
 				market_liberal
-				for_great_compromiser
+				for_ideological_crusader
 			}
 		}
-
+		
 		TRM_Nikolay_Merkulov_for_sco = {
 			allowed = { original_tag = TRM }
 			available = {
@@ -15030,15 +15621,20 @@ ideas = {
 			cancel_if_invalid = no
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea TRM_Nikolay_Merkulov_for_sco"
+				hidden_effect = { add_ideas = TRM_vladivostok_duma_governor_idea }
+			}
+			on_remove = {
+				log = "[GetDateText]: [Root.GetName]: remove idea TRM_Nikolay_Merkulov_for_sco"
+				hidden_effect = { remove_ideas = TRM_vladivostok_duma_governor_idea }
 			}
 			traits = {
 				foreign_minister
 				social_conservative
-				for_biased_intellectual
+				TRM_vladivostok_duma_governor
 			}
 		}
 
-		TRM_Tikhon_Shalamov_for_pau = {
+		TRM_Nikandr_Mirolyubov_for_pau = {
 			allowed = { original_tag = TRM }
 			available = {
 				custom_trigger_tooltip = {
@@ -15048,16 +15644,39 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TRM_Tikhon_Shalamov_for_pau"
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Nikandr_Mirolyubov_for_pau"
 			}
 			traits = {
 				foreign_minister
 				paternal_autocrat
-				for_ideological_crusader
+				sec_pious_administrator
+			}
+		}	
+		
+		
+		TRM_Ivan_P_Kalmykov_for_pau = {
+			allowed = { 
+				OR = {
+					original_tag = TRB
+					original_tag = TRM
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Ivan_P_Kalmykov_for_pau"
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_general_staffer  
 			}
 		}
-		
-		
 		TRM_Arseniy_Nesmelov_for_npo = {
 			allowed = { original_tag = TRM }
 			available = {
@@ -15114,11 +15733,35 @@ ideas = {
 				eco_industrialiser
 			}
 		}
+		
+		TRM_Semyon_D_Ignatiev_eco_tot = {
+			allowed = { 
+				OR = {
+					original_tag = TRB
+					original_tag = TRM
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Semyon_D_Ignatiev_eco_tot"
+			}
+			traits = {
+				economy_minister
+				totalist
+				eco_planned_economy_proponent 
+			}
+		}
 		TRM_Alexander_Krasnoshchyokov_eco_syn = {
 			allowed = { 
 				OR = {
-				original_tag = TRM
-				original_tag = SIB
+					original_tag = TRM
+					original_tag = SIB
 				}
 			}
 			available = {
@@ -15205,7 +15848,6 @@ ideas = {
 				eco_patriotic_socialist
 			}
 		}
-
 		TRM_Nikolay_Petrov_eco_sli = {
 			allowed = { 
 				original_tag = TRM 
@@ -15226,7 +15868,6 @@ ideas = {
 				eco_traditionalist_economist
 			}
 		}
-
 		TRM_Stepan_V_Vostrotin_eco_mli = {
 			allowed = { original_tag = TRM }
 			available = {
@@ -15341,7 +15982,31 @@ ideas = {
 			traits = {
 				economy_minister
 				paternal_autocrat
-				eco_infantry_proponent
+				eco_armaments_organiser
+			}
+		}
+				
+		TRM_Leonid_Verigo_eco_pau = {
+			allowed = { 
+				OR = {
+					original_tag = TRB
+					original_tag = TRM
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Leonid_Verigo_eco_pau"
+			}
+			traits = {
+				economy_minister
+				paternal_autocrat
+				eco_armaments_organiser
 			}
 		}
 		TRM_Lev_Okhotin_eco_npo = {
@@ -15441,9 +16106,34 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			traits = {
-				head_of_government
+				security_minister
 				totalist
 				TRM_militant_godless
+			}
+		}
+		
+		
+		TRM_Boris_P_Kandidov_sec_tot = {
+			allowed = { 
+				OR = {
+					original_tag = TRB
+					original_tag = TRM
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Boris_P_Kandidov_sec_tot"
+			}
+			traits = {
+				security_minister
+				totalist
+				sec_efficient_sociopath   
 			}
 		}
 		
@@ -15626,7 +16316,26 @@ ideas = {
 			traits = {
 				security_minister
 				paternal_autocrat
-				sec_prince_of_terror
+				sec_crime_fighter
+			}
+		}
+		
+		TRM_Grigory_Verzhbitsky_sec_pau = {
+			allowed = { original_tag = TRM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Grigory_Verzhbitsky_sec_pau"
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				TRM_deputy_of_voiveode
 			}
 		}
 		
@@ -15697,27 +16406,150 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-
-	}
-
-	chief_of_navy = { ### Chief of Navy ###
-		TRM_Aleksandr_Kolchak_cnav_pau = {
+		TRM_Ivan_P_Kalmykov_cos_pau = {
+			allowed = {  
+				OR = {
+					original_tag = TRB 
+					original_tag = TRM 
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Ivan_P_Kalmykov_dead }
+					has_unit_leader = 243802
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ivan_P_Kalmykov_dead }
+				has_unit_leader = 243802
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Ivan_P_Kalmykov_cos_pau"
+			}
+			traits = {
+				chief_of_staff
+				RUS_cossack_ataman
+			}
+			cancel_if_invalid = yes
+		}
+		TRM_Dmitriy_Lebedev_cos_pau = {
 			allowed = { original_tag = TRM }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
+					NOT = { has_country_flag = Dmitry_Lebedev_dead }
+					OR = {
+						has_authoritarian_government = yes
+						has_right_democratic_government = yes
+					}
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Dmitry_Lebedev_dead }
+				OR = {
+					has_authoritarian_government = yes
+					has_right_democratic_government = yes
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Dmitriy_Lebedev_cos_pau"
+			}
+			traits = {
+				chief_of_staff
+				RUS_quartermaster_general				
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_army = { ### Chief of Army ###		
+		TRM_Grigory_Semyonov_carm_pau = {
+			allowed = { 
+				OR = {
+					original_tag = TRB 
+					original_tag = TRM 
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Grigory_Semyonov_dead }
+					has_unit_leader = 243910
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Grigory_Semyonov_dead }
+			}
+			allowed_to_remove = {
+				OR = {
+					has_country_flag = Grigory_Semyonov_dead
+					NOT = { has_unit_leader = 243910 }
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Grigory_Semyonov_carm_pau"
+			}
+			traits = {
+				chief_of_army
+				RUS_siberian_ataman
+			}
+			cancel_if_invalid = yes
+		}		
+	}
+
+	chief_of_navy = { ### Chief of Navy ###
+		TRM_Aleksandr_Kolchak_cnav_pau = {
+			allowed = { 
+				OR = {
+					original_tag = TRM 
+					original_tag = RUS
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
 					NOT = { has_country_flag = Aleksandr_Kolchak_dead }
+					any_unit_leader = { has_trait = TRM_admiral_kolchak }
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Aleksandr_Kolchak_dead }
+				any_unit_leader = { has_trait = TRM_admiral_kolchak }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea TRM_Aleksandr_Kolchak_cnav_pau"
 			}
 			traits = {
 				chief_of_navy
-				RUS_arctic_naval_strategy
+				RUS_navy_leadership_kolchak
+			}
+			cancel_if_invalid = yes
+		}
+		TRM_Georgy_Stark_cnav_pau = {
+			allowed = { original_tag = TRM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = military_staff_available
+					NOT = { has_country_flag = Georgy_Stark_dead }
+					any_unit_leader = {
+						has_trait = blockade_runner 
+						has_trait = fleet_protector
+					}
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Georgy_Stark_dead }
+				any_unit_leader = {
+					has_trait = blockade_runner 
+					has_trait = fleet_protector
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TRM_Georgy_Stark_cnav_pau"
+			}
+			traits = {
+				chief_of_navy
+				RUS_rear_admiral
 			}
 			cancel_if_invalid = yes
 		}
@@ -71865,7 +72697,7 @@ ideas = {
 			}
 		}
 
-		CZE_Jan_Garrigue_Masaryk_hog_sli = {
+		CZE_TG_Masaryk_hog_sli = {
 			allowed = { original_tag = CZE }
 			available = {
 				custom_trigger_tooltip = {
@@ -71875,12 +72707,12 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea CZE_Jan_Garrigue_Masaryk_hog_sli"
+				log = "[GetDateText]: [Root.GetName]: add idea CZE_TG_Masaryk_hog_sli"
 			}
 			traits = {
 				head_of_government
 				social_liberal
-				hog_respected_war_hero
+				hog_influential_intellectual
 			}
 		}
 
@@ -77053,6 +77885,24 @@ ideas = {
 				hog_ambitious_union_boss
 			}
 		}
+		DKB_Afrikan_Bogaevsky_hog_sco = {
+			allowed = { original_tag = DKB }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea DKB_Afrikan_Bogaevsky_hog_sco"
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_old_general
+			}
+		}
 		DKB_Mikhail_N_Grabbe_hog_ade = {
 			allowed = { original_tag = DKB }
 			available = {
@@ -77127,6 +77977,24 @@ ideas = {
 				hog_naive_optimist
 			}
 		}
+		DKB_Andrei_Shkuro_hog_npo = {
+			allowed = { original_tag = DKB }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea DKB_Andrei_Shkuro_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_militant_reactionary
+			}
+		}
 		DKB_Leeb_hog_npo = {
 			allowed = { original_tag = DKB }
 			available = {
@@ -77143,6 +78011,24 @@ ideas = {
 				head_of_government
 				national_populist
 				hog_ultranationalist_agitator
+			}
+		}
+		DKB_Sergey_Sokolov_hog_npo = {
+			allowed = { original_tag = DKB }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea DKB_Sergey_Sokolov_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_monarchist_loyalist
 			}
 		}
 	}
@@ -77224,7 +78110,25 @@ ideas = {
 				for_great_compromiser
 			}
 		}
-
+		
+		DKB_Sergey_Paleolog_for_npo = {
+			allowed = { original_tag = DKB }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea DKB_Sergey_Paleolog_for_npo"
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_conscientious_diplomat
+			}
+		}
 		## Economy Minister ##
 		
 		DKB_Sergey_Lukashin_eco_rso = {
@@ -77299,6 +78203,24 @@ ideas = {
 				economy_minister
 				paternal_autocrat
 				eco_military_entrepreneur
+			}
+		}
+		DKB_Nikolay_Paramonov_eco_npo = {
+			allowed = { original_tag = DKB }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea DKB_Nikolay_Paramonov_eco_npo"
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_pious_entrepreneur
 			}
 		}
 		
@@ -77380,6 +78302,26 @@ ideas = {
 				security_minister
 				national_populist
 				sec_prince_of_terror
+			}
+		}
+		DKB_Vladimir_Orlov_sec_npo = {
+			allowed = { original_tag = DKB }
+			
+			cancel_if_invalid = no
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea DKB_Vladimir_Orlov_sec_npo"
+			}
+			traits = {
+				security_minister
+				national_populist
+				int_dismal_enigma
 			}
 		}
 	}	
@@ -87793,7 +88735,7 @@ ideas = {
 				for_biased_intellectual
 			}
 		}
-
+		
 		FIN_Eljas_Erkko_for_mli = {
 			allowed = { original_tag = FIN }
 			available = {
@@ -88078,6 +89020,25 @@ ideas = {
 				economy_minister
 				social_democrat
 				eco_austere_finance_advocate
+			}
+		}
+
+		FIN_Vaino_Tanner_eco_sde = {
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Vaino_Tanner_eco_sde"
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_patriotic_socialist
 			}
 		}
 
@@ -88462,6 +89423,25 @@ ideas = {
 				security_minister
 				social_democrat
 				sec_silent_lawyer
+			}
+		}
+
+		FIN_Urho_Kekkonen_sec_sli = {
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Urho_Kekkonen_for_sli"
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_man_of_the_centre
 			}
 		}
 
@@ -159203,7 +160183,7 @@ head_of_government = { ### Head of Government ###
 			}
 		}
 		
-		NFL_Leonard_Outerbridge_sec_sli = {
+		NFL_Greg_Power_sec_sli = {
 			allowed = { original_tag = NFL }
 			available = {
 				custom_trigger_tooltip = {
@@ -159213,12 +160193,12 @@ head_of_government = { ### Head of Government ###
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NFL_Leonard_Outerbridge_sec_sli" 
+				log = "[GetDateText]: [Root.GetName]: add idea NFL_Greg_Power_sec_sli" 
 			}
 			traits = {
 				security_minister
 				social_liberal
-				sec_silent_lawyer
+				sec_media_magnate
 			}
 		}
 		
@@ -216970,6 +217950,25 @@ head_of_government = { ### Head of Government ###
 			}
 		}
 		
+		TXS_Cyrus_Rowlett_Smith_eco_sde = {
+			allowed = { original_tag = TXS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TXS_Cyrus_Rowlett_Smith_eco_sde" 
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_air_superiority_proponent
+			}
+		}
+		
 		TXS_Joe_Pool_eco_mli = {
 			allowed = { original_tag = TXS }
 			available = {
@@ -217143,6 +218142,25 @@ head_of_government = { ### Head of Government ###
 				security_minister
 				social_democrat
 				sec_silent_lawyer
+			}
+		}
+		
+		TXS_Albert_Thomas_sec_sde = {
+			allowed = { original_tag = TXS }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TXS_Albert_Thomas_sec_sde" 
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_man_of_the_centre
 			}
 		}
 		
