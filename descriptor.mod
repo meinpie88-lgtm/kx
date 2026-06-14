@@ -94,6 +94,6 @@ tags={
 	"Gameplay"
 	"National Focuses"
 }
-supported_version="1.18.*"
+supported_version="1.19.*"
 path="mod/kx"
 remote_file_id="2206134307"
