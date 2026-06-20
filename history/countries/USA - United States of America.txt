@@ -763,9 +763,8 @@ create_corps_commander = {# James Garesche Ord
 	desc = "USA_JAMES_GARESCHE_ORD_ARMY_DESC"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_james_ord.png"
 	traits = {
-		trait_reckless
-		armor_officer
-		panzer_leader
+		organizer
+		infantry_officer
 	}
 	skill = 2
 	attack_skill = 3
@@ -1030,6 +1029,16 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 	id = 99500
+}
+create_corps_commander = {# 
+	name = "Hanford MacNider "
+	portrait_path = "gfx/leaders/USA/Portrait_USA_Hanford_MacNider.png"
+	traits = { trait_reckless media_personality inspirational_leader infantry_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
 }
 ### Navy Leader
 create_navy_leader = {# Chester W. Nimitz

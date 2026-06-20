@@ -8804,6 +8804,7 @@ country_event = { #State of Sequoyah
 					elections_allowed = no
 				}
 				set_cosmetic_tag = COR_SEQUOYAH
+				create_army_hq_for_dynamics = yes
 			}
 		puppet = 374.owner
 		COR = {
@@ -11626,7 +11627,30 @@ country_event = { #48 or 50
 
 	fire_only_once = yes
 	
-	is_triggered_only = yes
+	trigger = {
+		tag = COR
+		owns_state = 463
+		owns_state = 629
+		OR = {
+			has_country_leader = {
+			ruling_only = yes
+			name = "Rush Limbaugh Sr."
+			}
+		has_country_leader = {
+			ruling_only = yes
+			name = "David Bibb Graves"
+			}
+		has_country_leader = {
+			ruling_only = yes
+			name = "William Alexander Percy"
+			}
+		has_country_leader = {
+			ruling_only = yes
+			name = "Al Gore"
+			}
+		}
+
+	}
 
 	option = {
 		name = constate.6781.a

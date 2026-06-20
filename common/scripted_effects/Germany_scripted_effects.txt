@@ -4790,6 +4790,7 @@ GER_Setup_Neustria_Zone = {
 			ideology = right_technocracy_subtype
 		}
 		add_ideas = GER_Neustria_Industrial_Zone
+		create_army_hq_for_dynamics = yes
 	}
 	GER = {
 		set_autonomy = {
@@ -6247,7 +6248,8 @@ germany_flees_to_exile = {
 		puppet = GEA
 		GEA = { restore_previous_government_type = yes }
 	}
-	else = {
+	else_if = {
+		limit = { NOT = { GEA = { is_subject_of = LEP } } }
 		GER = {
 			set_autonomy = {
 				target = GEA
